@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Bodoni';
+    src: url('fonts/Bodoni.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Bodoni Moda', serif;
+    margin: 3rem 5%;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+}
+
+header .imgwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust based on your design */
+}
+
+header .imgwrapper img {
+    transform: scale(0.5);
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    color: white;
+}
+
+.footerWrapper {
+    background-color: black;
+    text-align: center; /* Center content inside the footer */
+    padding-top: 50px;
+}
+
+.footerWrapper section {
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    color: white;
+    margin: 0;
+}
+
+.promotionalCard {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80vw;
+    height: 50vh; 
+    margin: auto; 
+    background-color: white;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.281);
+    text-align: center;
+}
+
+.card-content {
+    padding: 45px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+}
+
+.card-button {
+    display: inline-block;
+    padding: 20px 100px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #b89b58;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    justify-self: center;
+}
+
+.card-button:hover {
+    animation: coloranimate 2s linear;
+}
+
+@keyframes coloranimate{
+    0%{
+        background-color: #b89b58;
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        background-color: #ffde89;
+        color: rgb(0, 0, 0);
+    }
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+article{
+    flex: 1;
+    padding: 5px;
+}
+article p{
+    font-weight: lighter;
+}
